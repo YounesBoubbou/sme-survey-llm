@@ -150,9 +150,29 @@ details.hints summary{cursor:pointer;font-weight:600;color:#1a237e;user-select:n
 <!-- COMPLETE -->
 <div id="s-complete" class="card complete" style="display:none">
   <h2>Coding Complete</h2>
-  <p>Thank you. Please download your responses and send the CSV file back to the researcher.</p>
+  <p>Thank you for completing the coding task. Please follow the two steps below.</p>
   <div class="stat-box" id="stat-box"></div>
-  <button class="btn btn-dl" onclick="exportCSV()">⬇ Download CSV</button>
+
+  <div style="text-align:left;margin-bottom:20px">
+    <div style="display:flex;align-items:flex-start;gap:14px;background:#f3f4f6;border-radius:8px;padding:18px;margin-bottom:12px">
+      <div style="background:#3f51b5;color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0">1</div>
+      <div>
+        <p style="font-weight:600;margin-bottom:6px">Download your responses</p>
+        <p style="font-size:13px;color:#555;line-height:1.6">Click the button below. A CSV file will be saved to your Downloads folder. Nothing is uploaded — your responses stay on your device until you send them.</p>
+      </div>
+    </div>
+    <div style="display:flex;align-items:flex-start;gap:14px;background:#f3f4f6;border-radius:8px;padding:18px">
+      <div style="background:#3f51b5;color:#fff;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0">2</div>
+      <div>
+        <p style="font-weight:600;margin-bottom:6px">Email the CSV file to the researcher</p>
+        <p style="font-size:13px;color:#555;line-height:1.6">Attach the downloaded file to an email and send it to:</p>
+        <p style="font-size:15px;font-weight:700;color:#1a237e;margin:8px 0">younes.boubbou@gmail.com</p>
+        <p style="font-size:13px;color:#888">Please do not share your answers with other coders before sending.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn-dl" onclick="exportCSV()">&#8659; Download CSV</button>
 </div>
 
 </div><!-- /wrap -->
