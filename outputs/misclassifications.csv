@@ -1,0 +1,133 @@
+row_id,response,sentiment_error,adoption_stage_error,main_barrier_error
+4,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+0,AI isn't on our roadmap currently — the pricing models we've seen don't fit our budget or scale.,neutral → negative,,
+11,We explored AI seriously but the skills required to implement it properly aren't something we can realistically build.,negative → neutral,,
+14,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,,not_interested → exploring,
+21,Building internal AI literacy took time but was worth every hour. Now the team spots opportunities we'd never have seen.,,,skills → none
+18,AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered.,,not_interested → exploring,
+30,We've scaled AI use but recent accuracy issues have made the team lose some confidence in the outputs.,neutral → negative,,
+32,We're not interested in AI right now — data privacy regulations are still catching up with the technology and we're cautious.,neutral → negative,,
+39,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",,,cost → none
+38,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,,,skills → none
+41,We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale.,neutral → negative,,
+40,We've scaled AI use but recent accuracy issues have made the team lose some confidence in the outputs.,neutral → negative,,
+47,We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us.,,not_interested → exploring,
+57,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",,exploring → not_interested,
+60,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,,,skills → none
+66,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral → negative,,
+71,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+72,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",,,cost → none
+73,AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered.,,not_interested → exploring,
+61,We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us.,,not_interested → exploring,
+80,Our pilot revealed serious issues with accuracy and data handling. We ended it and have no plans to return to AI.,,piloting → not_interested,
+81,We looked at AI but the skills gap in our organisation makes proper implementation impossible. Not the right time.,,not_interested → exploring,
+83,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,,not_interested → exploring,trust → none
+87,AI is priced for larger businesses. For a team of twelve like ours it's not economically viable.,,not_interested → exploring,
+90,Did some initial research on AI but the technical requirements are way beyond our current team's abilities.,negative → neutral,,
+94,We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us.,,not_interested → exploring,
+93,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,,not_interested → exploring,trust → none
+77,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",,exploring → not_interested,
+102,Did some initial research on AI but the technical requirements are way beyond our current team's abilities.,negative → neutral,,
+98,AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely.,neutral → negative,,
+118,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",,,skills → none
+117,"We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially.",,not_interested → exploring,
+121,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+122,"Testing an AI tool and it shows promise, but we need a proper training programme before we can roll it out fully.",neutral → positive,,
+114,We explored AI seriously but the skills required to implement it properly aren't something we can realistically build.,negative → neutral,,
+138,We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing.,positive → neutral,,
+153,We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now.,,,cost → none
+157,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral → negative,,
+163,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",,,cost → none
+159,"We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment.",neutral → positive,,
+166,Interested in AI but feel we'd need to hire someone technical to make it work. That changes the cost-benefit calculation.,,,skills → cost
+167,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral → negative,,
+176,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",,,cost → none
+165,AI is not something we're pursuing currently — we're not confident enough in the outputs to use it in customer-facing processes.,neutral → negative,,
+172,We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists.,,,skills → none
+177,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+204,We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now.,,,cost → none
+203,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,,,skills → none
+191,We evaluated AI options and put it on hold. The financial case isn't there yet for a business at our stage.,,not_interested → exploring,
+207,We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale.,neutral → negative,,
+206,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",,,skills → none
+202,We invested in training alongside the AI rollout and it's paid off. The team is confident and the tools keep improving.,,,skills → none
+214,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral → negative,,
+205,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+219,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",,not_interested → exploring,
+220,We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists.,,,skills → none
+223,We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now.,,,cost → none
+221,We looked at AI but the skills gap in our organisation makes proper implementation impossible. Not the right time.,,not_interested → exploring,
+227,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",,,skills → none
+226,We're not interested in AI right now — data privacy regulations are still catching up with the technology and we're cautious.,neutral → negative,,
+222,We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it.,negative → neutral,,
+229,Exploring AI but the skill requirements feel steep. We'd need either training or external help — neither is cheap or quick.,neutral → negative,,
+230,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral → negative,,
+243,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+240,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",,,skills → none
+234,Building internal AI literacy took time but was worth every hour. Now the team spots opportunities we'd never have seen.,,,skills → none
+246,We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision.,,,cost → none
+252,"Cost was our biggest concern when we started expanding AI. A year on, the numbers speak for themselves.",,,cost → none
+248,AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely.,neutral → negative,,
+254,We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing.,positive → neutral,,
+244,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",,exploring → not_interested,
+262,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+251,We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision.,,,cost → none
+263,We looked at AI and decided the skills investment was too large for us at this stage. Revisiting next year maybe.,,not_interested → exploring,
+265,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",,,cost → none
+276,AI is not something we're pursuing currently — we're not confident enough in the outputs to use it in customer-facing processes.,neutral → negative,,
+277,We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first.,,not_interested → exploring,
+275,"We've looked at AI and the costs just don't make sense for us right now. Not ruling it out long term, but not now.",,not_interested → exploring,
+287,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",,not_interested → exploring,
+286,We've expanded AI use significantly but need to be more disciplined about which use cases actually justify the cost.,neutral → positive,,
+290,Not moving ahead with AI at this stage. We want more proven track record before trusting it with business-critical tasks.,,not_interested → exploring,
+296,Started down the AI exploration path but the skills barrier was obvious very quickly. We don't have what's needed.,negative → neutral,,
+308,We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing.,positive → neutral,,
+311,We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists.,,,skills → none
+306,"We're exploring AI but the more we read about errors and biases, the more cautious we feel. Not ready to commit.",neutral → negative,,
+321,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",,not_interested → exploring,
+319,We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision.,,,cost → none
+325,We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us.,,not_interested → exploring,
+337,We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it.,,not_interested → exploring,
+338,We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it.,,not_interested → exploring,
+340,We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us.,,not_interested → exploring,
+346,AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered.,,not_interested → exploring,
+336,AI isn't on our roadmap currently — the pricing models we've seen don't fit our budget or scale.,neutral → negative,,
+349,AI is not on our near-term roadmap. The capability gap is too large to bridge without significant investment in people.,neutral → negative,,
+347,Skills took time to build during the pilot but we got there. Now the team actually enjoys using the AI tools.,,piloting → scaling,
+357,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",,,skills → none
+362,"We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially.",,not_interested → exploring,
+361,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",,not_interested → exploring,
+366,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",,exploring → not_interested,
+373,We explored AI seriously but the skills required to implement it properly aren't something we can realistically build.,negative → neutral,,
+393,We looked at AI and decided the skills investment was too large for us at this stage. Revisiting next year maybe.,,not_interested → exploring,
+388,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",,not_interested → exploring,
+398,"We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment.",neutral → positive,,
+396,"Our people needed upskilling before we could scale, and we invested in that. Happy we did — the capability is now a real asset.",,,skills → none
+406,Not moving forward with AI for now. We're a small team and don't have the technical depth to make it work properly.,neutral → negative,,
+407,We brought in a part-time AI specialist to help with the rollout. Cost more upfront but made the whole thing a success.,,,skills → none
+413,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",,not_interested → exploring,
+426,"We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially.",,not_interested → exploring,
+428,We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first.,,not_interested → exploring,
+432,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral → negative,,
+433,Not moving ahead with AI at this stage. We want more proven track record before trusting it with business-critical tasks.,,not_interested → exploring,
+436,The learning curve was steeper than the vendor suggested but the outcomes are positive enough that we're pushing through.,,piloting → scaling,
+437,Skills took time to build during the pilot but we got there. Now the team actually enjoys using the AI tools.,,piloting → scaling,
+446,"We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment.",neutral → positive,,
+449,We've done the analysis and can't justify the spend at this point. Maybe when we're bigger or prices come down.,,not_interested → exploring,
+450,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral → negative,,
+443,AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely.,neutral → negative,,
+464,We're not interested in AI right now — data privacy regulations are still catching up with the technology and we're cautious.,neutral → negative,,
+466,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,,not_interested → exploring,
+470,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",,not_interested → exploring,
+462,Exploring AI but the skill requirements feel steep. We'd need either training or external help — neither is cheap or quick.,neutral → negative,,
+472,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",,,skills → none
+468,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral → negative,,
+485,"It's expensive technology, but we treat it like any other capital investment — and the returns are there.",,,cost → none
+493,AI isn't happening for us right now. The technical requirements exceed what our current team can handle.,neutral → negative,,
+490,We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it.,,not_interested → exploring,
+488,Scaling AI has been broadly positive but the financial side needs more active management than we anticipated.,neutral → positive,,
+489,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",,not_interested → exploring,
+474,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",,,cost → none
+479,We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us.,,not_interested → exploring,
+483,We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first.,,not_interested → exploring,
+row_id,response,true_sentiment → pred_sentiment,true_adoption_stage → pred_adoption_stage,true_main_barrier → pred_main_barrier

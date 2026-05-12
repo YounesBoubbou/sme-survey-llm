@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SME AI Survey — Coding Task</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f2f5;color:#1a1a2e;min-height:100vh}
+.topbar{background:#1a237e;color:#fff;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+.topbar h1{font-size:16px;font-weight:600;letter-spacing:.2px}
+.topbar span{font-size:13px;opacity:.8}
+.pbar-wrap{background:#283593;height:5px}
+.pbar{background:#64b5f6;height:100%;transition:width .3s ease}
+.wrap{max-width:780px;margin:0 auto;padding:24px 16px}
+
+/* setup */
+.card{background:#fff;border-radius:10px;padding:36px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.card h2{font-size:20px;color:#1a237e;margin-bottom:10px}
+.card p{color:#555;line-height:1.65;margin-bottom:14px;font-size:14px}
+.card input{width:100%;padding:10px 14px;border:1.5px solid #ccc;border-radius:7px;font-size:15px;margin-bottom:16px;outline:none}
+.card input:focus{border-color:#3f51b5}
+
+/* instructions */
+details.hints{background:#e8eaf6;border-left:4px solid #3f51b5;border-radius:6px;padding:12px 16px;margin-bottom:18px;font-size:13px}
+details.hints summary{cursor:pointer;font-weight:600;color:#1a237e;user-select:none}
+.def-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+.def-col h4{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:#3f51b5;margin-bottom:7px}
+.def-col p{margin:3px 0;color:#444;line-height:1.5}
+.def-col b{font-weight:600;color:#222}
+.def-full{grid-column:1/-1}
+
+/* response */
+.resp-card{background:#fff;border-radius:10px;padding:22px 24px;box-shadow:0 2px 12px rgba(0,0,0,.08);margin-bottom:18px}
+.resp-lbl{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:#9e9e9e;margin-bottom:10px}
+.resp-text{font-size:15.5px;line-height:1.75;color:#111;border-left:3px solid #3f51b5;padding-left:16px}
+
+/* label panels */
+.lbls-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.lbl-panel{background:#fff;border-radius:10px;padding:18px 20px;box-shadow:0 2px 12px rgba(0,0,0,.08);border:2px solid transparent;transition:border-color .15s}
+.lbl-panel.done{border-color:#c5cae9}
+.lbl-panel.err{border-color:#ef5350}
+.lbl-panel.full{grid-column:1/-1}
+.lbl-panel h3{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:#9e9e9e;margin-bottom:12px}
+.opt{display:flex;align-items:flex-start;gap:10px;padding:7px 9px;border-radius:6px;cursor:pointer;transition:background .12s;margin-bottom:3px}
+.opt:hover{background:#f0f4ff}
+.opt input{margin-top:2px;width:15px;height:15px;cursor:pointer;accent-color:#3f51b5;flex-shrink:0}
+.opt label{cursor:pointer;font-size:14px;font-weight:500;line-height:1.4}
+.opt label small{display:block;font-size:12px;color:#9e9e9e;font-weight:400;margin-top:1px}
+.barrier-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+
+/* nav */
+.nav{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.btn{padding:10px 26px;border-radius:7px;font-size:14px;font-weight:600;cursor:pointer;border:none;transition:all .15s}
+.btn-p{background:#3f51b5;color:#fff}.btn-p:hover{background:#303f9f}
+.btn-s{background:#eeeeee;color:#444}.btn-s:hover{background:#e0e0e0}
+.btn:disabled{opacity:.35;cursor:not-allowed}
+.errmsg{color:#ef5350;font-size:13px;text-align:center;padding:8px;display:none}
+
+/* complete */
+.complete{text-align:center;padding:52px 36px}
+.complete h2{font-size:22px;color:#1a237e;margin-bottom:10px}
+.complete p{color:#555;margin-bottom:20px;line-height:1.65;font-size:14px}
+.complete .stat-box{background:#f5f5f5;border-radius:8px;padding:14px;margin-bottom:24px;font-size:14px;color:#444}
+.btn-dl{background:#1b5e20;color:#fff;padding:14px 36px;font-size:15px;border-radius:8px;margin:0 auto;display:block}
+.btn-dl:hover{background:#2e7d32}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <h1>SME AI Adoption Survey — Coding Task</h1>
+  <span id="ptxt"></span>
+</div>
+<div class="pbar-wrap"><div class="pbar" id="pbar" style="width:0"></div></div>
+<div class="wrap">
+
+<!-- SETUP -->
+<div id="s-setup" class="card">
+  <h2>Welcome</h2>
+  <p>You are being asked to independently label <strong>150 survey responses</strong> from SME owners about AI adoption. This should take approximately <strong>20–30 minutes</strong>.</p>
+  <p>For each response, assign three labels: <strong>sentiment</strong>, <strong>adoption stage</strong>, and <strong>main barrier</strong>. Full definitions are shown on every screen. Work independently — do not discuss labels with others until you have finished.</p>
+  <p>Your progress is automatically saved in this browser. You can close the tab and resume later on the same device.</p>
+  <input type="text" id="coder-id" placeholder="Enter your name or initials" autocomplete="off">
+  <button class="btn btn-p" onclick="startTask()" style="width:100%">Start Coding →</button>
+</div>
+
+<!-- CODING -->
+<div id="s-coding" style="display:none">
+
+  <details class="hints" open>
+    <summary>Label Definitions — click to collapse</summary>
+    <div class="def-grid">
+      <div class="def-col">
+        <h4>Sentiment</h4>
+        <p><b>Positive</b> — optimistic, satisfied, or enthusiastic about AI</p>
+        <p><b>Neutral</b> — mixed feelings, uncertain, or cautious</p>
+        <p><b>Negative</b> — frustrated, dismissive, or opposed to AI</p>
+      </div>
+      <div class="def-col">
+        <h4>Adoption Stage</h4>
+        <p><b>Exploring</b> — researching or considering AI, not yet trialling</p>
+        <p><b>Piloting</b> — actively testing or trialling AI tools</p>
+        <p><b>Scaling</b> — AI is deployed and being expanded</p>
+        <p><b>Not interested</b> — no intention to adopt AI</p>
+      </div>
+      <div class="def-col def-full">
+        <h4>Main Barrier</h4>
+        <p><b>Cost</b> — financial constraints or pricing concerns &nbsp;·&nbsp; <b>Skills</b> — lack of expertise or training needs &nbsp;·&nbsp; <b>Trust</b> — concerns about reliability, privacy, or accuracy &nbsp;·&nbsp; <b>None</b> — no significant barrier mentioned</p>
+      </div>
+    </div>
+  </details>
+
+  <div class="resp-card">
+    <div class="resp-lbl">Survey Response</div>
+    <div class="resp-text" id="resp-text"></div>
+  </div>
+
+  <div class="lbls-grid">
+    <div class="lbl-panel" id="p-sentiment">
+      <h3>Sentiment</h3>
+      <div class="opt"><input type="radio" name="sentiment" id="s-pos" value="positive"><label for="s-pos">Positive<small>optimistic / satisfied</small></label></div>
+      <div class="opt"><input type="radio" name="sentiment" id="s-neu" value="neutral"><label for="s-neu">Neutral<small>mixed / uncertain</small></label></div>
+      <div class="opt"><input type="radio" name="sentiment" id="s-neg" value="negative"><label for="s-neg">Negative<small>frustrated / opposed</small></label></div>
+    </div>
+    <div class="lbl-panel" id="p-stage">
+      <h3>Adoption Stage</h3>
+      <div class="opt"><input type="radio" name="stage" id="st-exp" value="exploring"><label for="st-exp">Exploring<small>researching, not yet trialling</small></label></div>
+      <div class="opt"><input type="radio" name="stage" id="st-pil" value="piloting"><label for="st-pil">Piloting<small>actively testing tools</small></label></div>
+      <div class="opt"><input type="radio" name="stage" id="st-scl" value="scaling"><label for="st-scl">Scaling<small>deployed and expanding</small></label></div>
+      <div class="opt"><input type="radio" name="stage" id="st-noi" value="not_interested"><label for="st-noi">Not interested<small>no intention to adopt</small></label></div>
+    </div>
+    <div class="lbl-panel full" id="p-barrier">
+      <h3>Main Barrier</h3>
+      <div class="barrier-grid">
+        <div class="opt"><input type="radio" name="barrier" id="b-cost" value="cost"><label for="b-cost">Cost<small>financial</small></label></div>
+        <div class="opt"><input type="radio" name="barrier" id="b-skl" value="skills"><label for="b-skl">Skills<small>expertise gap</small></label></div>
+        <div class="opt"><input type="radio" name="barrier" id="b-tru" value="trust"><label for="b-tru">Trust<small>reliability / privacy</small></label></div>
+        <div class="opt"><input type="radio" name="barrier" id="b-non" value="none"><label for="b-non">None<small>no barrier</small></label></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="errmsg" id="errmsg">Please select a value for all three labels before continuing.</div>
+  <div class="nav">
+    <button class="btn btn-s" id="btn-back" onclick="go(-1)" disabled>← Back</button>
+    <button class="btn btn-p" onclick="go(1)">Save &amp; Continue →</button>
+  </div>
+</div>
+
+<!-- COMPLETE -->
+<div id="s-complete" class="card complete" style="display:none">
+  <h2>Coding Complete</h2>
+  <p>Thank you. Please download your responses and send the CSV file back to the researcher.</p>
+  <div class="stat-box" id="stat-box"></div>
+  <button class="btn btn-dl" onclick="exportCSV()">⬇ Download CSV</button>
+</div>
+
+</div><!-- /wrap -->
+<script>
+const R=[{"row_id": 337, "response": "We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it."}, {"row_id": 388, "response": "AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future."}, {"row_id": 118, "response": "We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly."}, {"row_id": 80, "response": "Our pilot revealed serious issues with accuracy and data handling. We ended it and have no plans to return to AI."}, {"row_id": 11, "response": "We explored AI seriously but the skills required to implement it properly aren't something we can realistically build."}, {"row_id": 413, "response": "AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future."}, {"row_id": 357, "response": "We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly."}, {"row_id": 264, "response": "We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size."}, {"row_id": 321, "response": "We considered AI but between the technical setup and staff training, the human cost ruled it out for us."}, {"row_id": 203, "response": "The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically."}, {"row_id": 331, "response": "Scaling went okay but we underestimated how much ongoing training would be needed as the tools update and evolve."}, {"row_id": 248, "response": "AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely."}, {"row_id": 121, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 444, "response": "AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic."}, {"row_id": 92, "response": "Our team doesn't have the technical background for AI adoption and we can't afford to build that capability. Moving on."}, {"row_id": 426, "response": "We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially."}, {"row_id": 254, "response": "We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing."}, {"row_id": 472, "response": "We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly."}, {"row_id": 270, "response": "Pilot is going okay but every vendor conversation circles back to upselling. Cost is becoming a sticking point."}, {"row_id": 87, "response": "AI is priced for larger businesses. For a team of twelve like ours it's not economically viable."}, {"row_id": 223, "response": "We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now."}, {"row_id": 443, "response": "AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely."}, {"row_id": 449, "response": "We've done the analysis and can't justify the spend at this point. Maybe when we're bigger or prices come down."}, {"row_id": 490, "response": "We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it."}, {"row_id": 450, "response": "AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help."}, {"row_id": 153, "response": "We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now."}, {"row_id": 207, "response": "We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale."}, {"row_id": 428, "response": "We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first."}, {"row_id": 271, "response": "Not pursuing AI for now. It's not that we're against it â€” the cost-benefit just doesn't add up at our current size."}, {"row_id": 406, "response": "Not moving forward with AI for now. We're a small team and don't have the technical depth to make it work properly."}, {"row_id": 263, "response": "We looked at AI and decided the skills investment was too large for us at this stage. Revisiting next year maybe."}, {"row_id": 466, "response": "We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing."}, {"row_id": 306, "response": "We're exploring AI but the more we read about errors and biases, the more cautious we feel. Not ready to commit."}, {"row_id": 483, "response": "We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first."}, {"row_id": 401, "response": "We did some research on AI tools and came away deeply sceptical. The accuracy claims don't match what we've heard."}, {"row_id": 0, "response": "AI isn't on our roadmap currently â€” the pricing models we've seen don't fit our budget or scale."}, {"row_id": 432, "response": "AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up."}, {"row_id": 361, "response": "We considered AI but between the technical setup and staff training, the human cost ruled it out for us."}, {"row_id": 308, "response": "We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing."}, {"row_id": 14, "response": "We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing."}, {"row_id": 246, "response": "We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision."}, {"row_id": 311, "response": "We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists."}, {"row_id": 83, "response": "We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing."}, {"row_id": 57, "response": "After reading the small print on data usage, we decided we couldn't trust these companies with our business information."}, {"row_id": 262, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 399, "response": "The numbers don't add up. Too expensive for the value it would deliver at our scale. We've moved on."}, {"row_id": 7, "response": "We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size."}, {"row_id": 340, "response": "We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us."}, {"row_id": 205, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 243, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 66, "response": "AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up."}, {"row_id": 362, "response": "We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially."}, {"row_id": 393, "response": "We looked at AI and decided the skills investment was too large for us at this stage. Revisiting next year maybe."}, {"row_id": 496, "response": "Not pursuing AI for now. It's not that we're against it â€” the cost-benefit just doesn't add up at our current size."}, {"row_id": 287, "response": "We considered AI but between the technical setup and staff training, the human cost ruled it out for us."}, {"row_id": 177, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 468, "response": "AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help."}, {"row_id": 290, "response": "Not moving ahead with AI at this stage. We want more proven track record before trusting it with business-critical tasks."}, {"row_id": 114, "response": "We explored AI seriously but the skills required to implement it properly aren't something we can realistically build."}, {"row_id": 346, "response": "AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered."}, {"row_id": 4, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 39, "response": "Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent."}, {"row_id": 221, "response": "We looked at AI but the skills gap in our organisation makes proper implementation impossible. Not the right time."}, {"row_id": 230, "response": "AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help."}, {"row_id": 275, "response": "We've looked at AI and the costs just don't make sense for us right now. Not ruling it out long term, but not now."}, {"row_id": 172, "response": "We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists."}, {"row_id": 462, "response": "Exploring AI but the skill requirements feel steep. We'd need either training or external help â€” neither is cheap or quick."}, {"row_id": 38, "response": "The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically."}, {"row_id": 214, "response": "AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help."}, {"row_id": 433, "response": "Not moving ahead with AI at this stage. We want more proven track record before trusting it with business-critical tasks."}, {"row_id": 244, "response": "After reading the small print on data usage, we decided we couldn't trust these companies with our business information."}, {"row_id": 298, "response": "Our pilot is running but we've had a few cases where the AI gave wrong information to customers. Reviewing carefully."}, {"row_id": 474, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 234, "response": "Building internal AI literacy took time but was worth every hour. Now the team spots opportunities we'd never have seen."}, {"row_id": 166, "response": "Interested in AI but feel we'd need to hire someone technical to make it work. That changes the cost-benefit calculation."}, {"row_id": 371, "response": "Our team doesn't have the technical background for AI adoption and we can't afford to build that capability. Moving on."}, {"row_id": 41, "response": "We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale."}, {"row_id": 77, "response": "After reading the small print on data usage, we decided we couldn't trust these companies with our business information."}, {"row_id": 73, "response": "AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered."}, {"row_id": 60, "response": "The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically."}, {"row_id": 94, "response": "We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us."}, {"row_id": 347, "response": "Skills took time to build during the pilot but we got there. Now the team actually enjoys using the AI tools."}, {"row_id": 219, "response": "We considered AI but between the technical setup and staff training, the human cost ruled it out for us."}, {"row_id": 138, "response": "We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing."}, {"row_id": 493, "response": "AI isn't happening for us right now. The technical requirements exceed what our current team can handle."}, {"row_id": 157, "response": "AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up."}, {"row_id": 227, "response": "We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly."}, {"row_id": 117, "response": "We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially."}, {"row_id": 446, "response": "We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment."}, {"row_id": 30, "response": "We've scaled AI use but recent accuracy issues have made the team lose some confidence in the outputs."}, {"row_id": 488, "response": "Scaling AI has been broadly positive but the financial side needs more active management than we anticipated."}, {"row_id": 325, "response": "We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us."}, {"row_id": 366, "response": "After reading the small print on data usage, we decided we couldn't trust these companies with our business information."}, {"row_id": 93, "response": "We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing."}, {"row_id": 90, "response": "Did some initial research on AI but the technical requirements are way beyond our current team's abilities."}, {"row_id": 407, "response": "We brought in a part-time AI specialist to help with the rollout. Cost more upfront but made the whole thing a success."}, {"row_id": 154, "response": "Interested in AI and actively looking â€” just need to find an option that fits our budget without sacrificing quality."}, {"row_id": 229, "response": "Exploring AI but the skill requirements feel steep. We'd need either training or external help â€” neither is cheap or quick."}, {"row_id": 206, "response": "We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly."}, {"row_id": 176, "response": "Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent."}, {"row_id": 240, "response": "We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly."}, {"row_id": 489, "response": "AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future."}, {"row_id": 252, "response": "Cost was our biggest concern when we started expanding AI. A year on, the numbers speak for themselves."}, {"row_id": 202, "response": "We invested in training alongside the AI rollout and it's paid off. The team is confident and the tools keep improving."}, {"row_id": 319, "response": "We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision."}, {"row_id": 32, "response": "We're not interested in AI right now â€” data privacy regulations are still catching up with the technology and we're cautious."}, {"row_id": 115, "response": "We ran a pilot and the technology was fine, but the cost-per-outcome made no business sense. We pulled out."}, {"row_id": 222, "response": "We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it."}, {"row_id": 18, "response": "AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered."}, {"row_id": 277, "response": "We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first."}, {"row_id": 21, "response": "Building internal AI literacy took time but was worth every hour. Now the team spots opportunities we'd never have seen."}, {"row_id": 159, "response": "We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment."}, {"row_id": 72, "response": "Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent."}, {"row_id": 163, "response": "Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent."}, {"row_id": 349, "response": "AI is not on our near-term roadmap. The capability gap is too large to bridge without significant investment in people."}, {"row_id": 191, "response": "We evaluated AI options and put it on hold. The financial case isn't there yet for a business at our stage."}, {"row_id": 276, "response": "AI is not something we're pursuing currently â€” we're not confident enough in the outputs to use it in customer-facing processes."}, {"row_id": 396, "response": "Our people needed upskilling before we could scale, and we invested in that. Happy we did â€” the capability is now a real asset."}, {"row_id": 165, "response": "AI is not something we're pursuing currently â€” we're not confident enough in the outputs to use it in customer-facing processes."}, {"row_id": 485, "response": "It's expensive technology, but we treat it like any other capital investment â€” and the returns are there."}, {"row_id": 286, "response": "We've expanded AI use significantly but need to be more disciplined about which use cases actually justify the cost."}, {"row_id": 338, "response": "We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it."}, {"row_id": 40, "response": "We've scaled AI use but recent accuracy issues have made the team lose some confidence in the outputs."}, {"row_id": 378, "response": "AI is appealing but we're a lean team and every cost decision matters. Still searching for something that makes financial sense."}, {"row_id": 81, "response": "We looked at AI but the skills gap in our organisation makes proper implementation impossible. Not the right time."}, {"row_id": 373, "response": "We explored AI seriously but the skills required to implement it properly aren't something we can realistically build."}, {"row_id": 61, "response": "We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us."}, {"row_id": 71, "response": "The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year."}, {"row_id": 265, "response": "Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent."}, {"row_id": 167, "response": "AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up."}, {"row_id": 464, "response": "We're not interested in AI right now â€” data privacy regulations are still catching up with the technology and we're cautious."}, {"row_id": 480, "response": "Our pilot has shown some value but per-user licensing is expensive at scale. Waiting to negotiate better rates."}, {"row_id": 140, "response": "Our pilot gave us a clear answer: the tool isn't affordable at the usage level we'd need to make it worthwhile."}, {"row_id": 141, "response": "We're not pursuing AI currently â€” getting the skills in place would require hiring or retraining we can't prioritise."}, {"row_id": 122, "response": "Testing an AI tool and it shows promise, but we need a proper training programme before we can roll it out fully."}, {"row_id": 336, "response": "AI isn't on our roadmap currently â€” the pricing models we've seen don't fit our budget or scale."}, {"row_id": 98, "response": "AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely."}, {"row_id": 479, "response": "We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us."}, {"row_id": 220, "response": "We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists."}, {"row_id": 436, "response": "The learning curve was steeper than the vendor suggested but the outcomes are positive enough that we're pushing through."}, {"row_id": 226, "response": "We're not interested in AI right now â€” data privacy regulations are still catching up with the technology and we're cautious."}, {"row_id": 251, "response": "We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision."}, {"row_id": 398, "response": "We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment."}, {"row_id": 296, "response": "Started down the AI exploration path but the skills barrier was obvious very quickly. We don't have what's needed."}, {"row_id": 47, "response": "We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us."}, {"row_id": 329, "response": "We're testing it and it's fine, but fine isn't worth the price tag. Need to see more compelling results before committing."}, {"row_id": 470, "response": "AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future."}, {"row_id": 102, "response": "Did some initial research on AI but the technical requirements are way beyond our current team's abilities."}, {"row_id": 437, "response": "Skills took time to build during the pilot but we got there. Now the team actually enjoys using the AI tools."}, {"row_id": 204, "response": "We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now."}];
+const KEY='sme-irr-v1';
+let st={id:'',lbl:{},idx:0};
+
+function save(){localStorage.setItem(KEY,JSON.stringify(st));}
+function load(){try{const s=localStorage.getItem(KEY);if(s)st=JSON.parse(s);}catch(e){}}
+
+function startTask(){
+  const nm=document.getElementById('coder-id').value.trim();
+  if(!nm){alert('Please enter your name or initials.');return;}
+  load();
+  if(st.id===nm&&Object.keys(st.lbl).length>0){
+    if(!confirm(`Welcome back, ${nm}! Resume from response ${st.idx+1} of ${R.length}?`))
+      st={id:nm,lbl:{},idx:0};
+  } else {
+    st={id:nm,lbl:{},idx:0};
+  }
+  save();
+  document.getElementById('s-setup').style.display='none';
+  document.getElementById('s-coding').style.display='block';
+  render();
+}
+
+function render(){
+  const i=st.idx;
+  if(i>=R.length){done();return;}
+  const r=R[i];
+  document.getElementById('resp-text').textContent=r.response;
+  ['sentiment','stage','barrier'].forEach(n=>
+    document.querySelectorAll(`input[name="${n}"]`).forEach(el=>el.checked=false));
+  const sv=st.lbl[r.row_id];
+  if(sv){
+    const s=document.getElementById('s-'+{positive:'pos',neutral:'neu',negative:'neg'}[sv.sentiment]);
+    const st2=document.getElementById('st-'+{exploring:'exp',piloting:'pil',scaling:'scl',not_interested:'noi'}[sv.adoption_stage]);
+    const b=document.getElementById('b-'+{cost:'cost',skills:'skl',trust:'tru',none:'non'}[sv.main_barrier]);
+    if(s)s.checked=true; if(st2)st2.checked=true; if(b)b.checked=true;
+  }
+  ['p-sentiment','p-stage','p-barrier'].forEach(id=>{
+    const el=document.getElementById(id);
+    el.classList.remove('err');
+    el.classList.toggle('done',!!sv);
+  });
+  document.getElementById('errmsg').style.display='none';
+  const pct=Math.round(i/R.length*100);
+  document.getElementById('ptxt').textContent=`Response ${i+1} of ${R.length}`;
+  document.getElementById('pbar').style.width=pct+'%';
+  document.getElementById('btn-back').disabled=i===0;
+}
+
+function go(dir){
+  if(dir===1){
+    const sentiment=document.querySelector('input[name="sentiment"]:checked')?.value;
+    const stage=document.querySelector('input[name="stage"]:checked')?.value;
+    const barrier=document.querySelector('input[name="barrier"]:checked')?.value;
+    let err=false;
+    if(!sentiment){document.getElementById('p-sentiment').classList.add('err');err=true;}
+    if(!stage){document.getElementById('p-stage').classList.add('err');err=true;}
+    if(!barrier){document.getElementById('p-barrier').classList.add('err');err=true;}
+    if(err){document.getElementById('errmsg').style.display='block';return;}
+    const r=R[st.idx];
+    st.lbl[r.row_id]={sentiment,adoption_stage:stage,main_barrier:barrier};
+    st.idx++;save();
+    if(st.idx>=R.length){done();return;}
+  } else {
+    if(st.idx>0){st.idx--;save();}
+  }
+  render();
+}
+
+function done(){
+  document.getElementById('s-coding').style.display='none';
+  document.getElementById('s-complete').style.display='block';
+  document.getElementById('pbar').style.width='100%';
+  document.getElementById('ptxt').textContent=`Complete — ${R.length} responses`;
+  const n=Object.keys(st.lbl).length;
+  document.getElementById('stat-box').textContent=
+    `Coder: ${st.id}  |  Responses coded: ${n} / ${R.length}`;
+}
+
+function exportCSV(){
+  const lines=['coder_id,row_id,response,sentiment,adoption_stage,main_barrier'];
+  R.forEach(r=>{
+    const l=st.lbl[r.row_id];
+    if(!l)return;
+    lines.push([st.id,r.row_id,'"'+r.response.replace(/"/g,'""')+'"',
+      l.sentiment,l.adoption_stage,l.main_barrier].join(','));
+  });
+  const blob=new Blob([lines.join('\n')],{type:'text/csv'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`coder_${st.id.replace(/\s+/g,'_').toLowerCase()}.csv`;
+  a.click();
+}
+
+window.addEventListener('load',()=>{
+  load();
+  if(st.id)document.getElementById('coder-id').value=st.id;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+row_id,response,true_sentiment,true_adoption_stage,true_main_barrier,pred_sentiment,pred_adoption_stage,pred_main_barrier
+1,Looking at AI options but concerned about the learning curve. Our team are great at their jobs but aren't tech-savvy.,neutral,exploring,skills,neutral,exploring,skills
+2,We tried to research AI tools but every solution assumed a level of technical expertise we don't have. Gave up.,negative,exploring,skills,negative,exploring,skills
+3,I don't trust AI to interact with our clients. One bad output could damage relationships we've spent years building.,negative,not_interested,trust,negative,not_interested,trust
+4,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+0,AI isn't on our roadmap currently â€” the pricing models we've seen don't fit our budget or scale.,neutral,not_interested,cost,negative,not_interested,cost
+5,We were keen to explore AI but the pricing completely put us off. There's a real gap in the market for affordable SME tools.,negative,exploring,cost,negative,exploring,cost
+6,"Our AI pilot is in progress but adoption has been patchy. Some team members use it well, others are struggling.",neutral,piloting,skills,neutral,piloting,skills
+8,We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it.,negative,exploring,skills,negative,exploring,skills
+9,Pilot is live but we're not ready to trust it without human oversight. Some outputs have been inconsistent.,neutral,piloting,trust,neutral,piloting,trust
+11,We explored AI seriously but the skills required to implement it properly aren't something we can realistically build.,negative,exploring,skills,neutral,exploring,skills
+13,We ran an AI pilot and ended it early. Cost per result was far too high to justify at any scale.,negative,piloting,cost,negative,piloting,cost
+10,Running AI at scale but data governance has become a bigger issue than we anticipated. Working through it.,neutral,scaling,trust,neutral,scaling,trust
+14,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,neutral,not_interested,trust,neutral,exploring,trust
+15,Running AI at scale but data governance has become a bigger issue than we anticipated. Working through it.,neutral,scaling,trust,neutral,scaling,trust
+12,We explored AI briefly but the financial reality killed the idea quickly. The industry hasn't made this accessible yet.,negative,exploring,cost,negative,exploring,cost
+17,We looked at AI and decided the reliability risks were too high. Not something we're willing to gamble on.,negative,not_interested,trust,negative,not_interested,trust
+19,The price tags for AI tools are completely out of range for us. We've parked the idea indefinitely.,negative,not_interested,cost,negative,not_interested,cost
+20,Interested in AI and actively looking â€” just need to find an option that fits our budget without sacrificing quality.,positive,exploring,cost,positive,exploring,cost
+16,The AI chatbot pilot has exceeded expectations. Customers get faster answers and our staff focus on complex issues.,positive,piloting,none,positive,piloting,none
+21,Building internal AI literacy took time but was worth every hour. Now the team spots opportunities we'd never have seen.,positive,scaling,skills,positive,scaling,none
+18,AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered.,neutral,not_interested,trust,neutral,exploring,trust
+22,"We've scaled but the cost base has grown with it. Worth it so far, but we're monitoring closely.",neutral,scaling,cost,neutral,scaling,cost
+24,We explored AI options but the combination of data privacy concerns and inconsistent accuracy made it a non-starter.,negative,exploring,trust,negative,exploring,trust
+26,Interested in AI and actively looking â€” just need to find an option that fits our budget without sacrificing quality.,positive,exploring,cost,positive,exploring,cost
+27,Running a pilot and the AI is capable but we've found some accuracy issues that are giving us pause.,neutral,piloting,trust,neutral,piloting,trust
+25,Our pilot is running but we've had a few cases where the AI gave wrong information to customers. Reviewing carefully.,neutral,piloting,trust,neutral,piloting,trust
+29,Began looking into AI last quarter and pulled back fast. The cost of entry is too high for our margin structure.,negative,exploring,cost,negative,exploring,cost
+30,We've scaled AI use but recent accuracy issues have made the team lose some confidence in the outputs.,neutral,scaling,trust,negative,scaling,trust
+23,We ran an AI pilot and ended it early. Cost per result was far too high to justify at any scale.,negative,piloting,cost,negative,piloting,cost
+28,No interest in AI adoption right now. We don't have the in-house technical knowledge and outsourcing it feels risky.,negative,not_interested,skills,negative,not_interested,skills
+31,Pilot is live but momentum is slow. The AI works but half the team doesn't feel confident enough to use it independently.,neutral,piloting,skills,neutral,piloting,skills
+35,AI is clearly the right direction for us. Just need to find a cost model that works â€” exploring options actively.,positive,exploring,cost,positive,exploring,cost
+37,"Our team was a bit underprepared technically when we started the pilot, but they've grown into it and the tool is delivering.",positive,piloting,skills,positive,piloting,skills
+32,We're not interested in AI right now â€” data privacy regulations are still catching up with the technology and we're cautious.,neutral,not_interested,trust,negative,not_interested,trust
+33,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+36,"We're testing it and it's fine, but fine isn't worth the price tag. Need to see more compelling results before committing.",neutral,piloting,cost,neutral,piloting,cost
+39,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",positive,scaling,cost,positive,scaling,none
+38,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,positive,scaling,skills,positive,scaling,none
+7,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+41,We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale.,neutral,scaling,cost,negative,scaling,cost
+34,Our AI pilot ended badly. We had two incidents where the AI made decisions we would never have approved. Trust destroyed.,negative,piloting,trust,negative,piloting,trust
+42,Pilot is live but we're not ready to trust it without human oversight. Some outputs have been inconsistent.,neutral,piloting,trust,neutral,piloting,trust
+44,AI is clearly the right direction for us. Just need to find a cost model that works â€” exploring options actively.,positive,exploring,cost,positive,exploring,cost
+45,Not pursuing AI for now. It's not that we're against it â€” the cost-benefit just doesn't add up at our current size.,neutral,not_interested,cost,neutral,not_interested,cost
+43,"The pilot requires more hands-on support than I expected, but the value is real. We're upskilling the team to keep momentum.",positive,piloting,skills,positive,piloting,skills
+40,We've scaled AI use but recent accuracy issues have made the team lose some confidence in the outputs.,neutral,scaling,trust,negative,scaling,trust
+52,Looked at a few platforms. The first quotes we got were so far out of range we stopped exploring entirely.,negative,exploring,cost,negative,exploring,cost
+50,AI is clearly the right direction for us. Just need to find a cost model that works â€” exploring options actively.,positive,exploring,cost,positive,exploring,cost
+47,We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us.,negative,not_interested,skills,negative,exploring,skills
+46,The monthly spend is significant but the efficiency gains more than offset it. We'd scale further if we could.,positive,scaling,cost,positive,scaling,cost
+56,We looked at AI and decided the reliability risks were too high. Not something we're willing to gamble on.,negative,not_interested,trust,negative,not_interested,trust
+57,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",negative,exploring,trust,negative,not_interested,trust
+48,We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it.,negative,exploring,skills,negative,exploring,skills
+49,The pilot confirmed what we suspected â€” the AI works but it's too expensive for a business our size to sustain.,negative,piloting,cost,negative,piloting,cost
+60,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,positive,scaling,skills,positive,scaling,none
+55,Our customers expect accuracy and consistency. AI can't guarantee that. Sticking with our existing processes.,negative,not_interested,trust,negative,not_interested,trust
+54,We want to adopt AI and are actively exploring. Cost is a factor but we're confident there's a sensible option out there.,positive,exploring,cost,positive,exploring,cost
+66,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral,scaling,cost,negative,scaling,cost
+64,Not going down the AI route. Too many stories of errors and bias. We'd rather keep humans in control.,negative,not_interested,trust,negative,not_interested,trust
+62,I've been researching AI solutions for months and I'm genuinely excited. The right tool for our size definitely exists.,positive,exploring,none,positive,exploring,none
+63,Our AI pilot ended badly. We had two incidents where the AI made decisions we would never have approved. Trust destroyed.,negative,piloting,trust,negative,piloting,trust
+51,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+65,"We ran a pilot and the technology was fine, but the cost-per-outcome made no business sense. We pulled out.",negative,piloting,cost,negative,piloting,cost
+67,Very positive on AI. The main thing holding us to the research phase is finding the right price point for our scale.,positive,exploring,cost,positive,exploring,cost
+71,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+72,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",positive,scaling,cost,positive,scaling,none
+58,"Research into AI made us more sceptical, not less. We couldn't find a tool we'd be comfortable trusting with real decisions.",negative,exploring,trust,negative,exploring,trust
+73,AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered.,neutral,not_interested,trust,neutral,exploring,trust
+61,We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us.,negative,not_interested,trust,negative,exploring,trust
+74,I looked into AI for our business and the setup costs alone would take years to recoup. We've decided against it.,negative,not_interested,cost,negative,not_interested,cost
+75,Looking into AI but data privacy is a big concern. We handle customer data and can't afford to get it wrong.,neutral,exploring,trust,neutral,exploring,trust
+53,Interested but cautious. The tools we've seen are promising; the price tags less so. Still evaluating.,neutral,exploring,cost,neutral,exploring,cost
+79,"AI is now central to how we run the business â€” customer queries, stock forecasting, invoicing. The ROI has been outstanding.",positive,scaling,none,positive,scaling,none
+59,We were keen to explore AI but the pricing completely put us off. There's a real gap in the market for affordable SME tools.,negative,exploring,cost,negative,exploring,cost
+80,Our pilot revealed serious issues with accuracy and data handling. We ended it and have no plans to return to AI.,negative,piloting,trust,negative,not_interested,trust
+76,"We're running an AI pilot but ongoing costs are higher than forecast. Useful, but not sure the numbers stack up.",neutral,piloting,cost,neutral,piloting,cost
+81,We looked at AI but the skills gap in our organisation makes proper implementation impossible. Not the right time.,negative,not_interested,skills,negative,exploring,skills
+84,We're piloting an AI tool but outputs aren't always reliable enough for our standards. Still evaluating.,neutral,piloting,trust,neutral,piloting,trust
+85,AI is part of our stack now but the total spend is higher than we'd like. Looking for ways to optimise without losing capability.,neutral,scaling,cost,neutral,scaling,cost
+83,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,neutral,not_interested,trust,neutral,exploring,none
+86,We ran a pilot but it failed. Our team couldn't get to grips with the tool despite weeks of training.,negative,piloting,skills,negative,piloting,skills
+87,AI is priced for larger businesses. For a team of twelve like ours it's not economically viable.,negative,not_interested,cost,negative,exploring,cost
+78,"After a year of scaling our AI tools, revenue is up and headcount has stayed flat. Best investment we've made.",positive,scaling,none,positive,scaling,none
+92,Our team doesn't have the technical background for AI adoption and we can't afford to build that capability. Moving on.,negative,not_interested,skills,negative,not_interested,skills
+88,I tried to get buy-in for AI but the honest reality is our team isn't equipped for it. We've decided not to pursue it.,negative,not_interested,skills,negative,not_interested,skills
+90,Did some initial research on AI but the technical requirements are way beyond our current team's abilities.,negative,exploring,skills,neutral,exploring,skills
+94,We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us.,negative,not_interested,trust,negative,exploring,trust
+93,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,neutral,not_interested,trust,neutral,exploring,none
+95,Testing AI at the moment. It mostly works but there are edge cases where the output is just wrong. Keeping humans in the loop.,neutral,piloting,trust,neutral,piloting,trust
+91,At the research stage but very enthusiastic. AI could help us genuinely compete with much larger players.,positive,exploring,none,positive,exploring,none
+96,Scaling went okay but we underestimated how much ongoing training would be needed as the tools update and evolve.,neutral,scaling,skills,neutral,scaling,skills
+77,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",negative,exploring,trust,negative,not_interested,trust
+97,Exploring AI options but every demo leads to a pricing conversation we're not ready for. Taking our time.,neutral,exploring,cost,neutral,exploring,cost
+100,"We're in the pilot phase and the tool has genuine uses, but the subscription model at full scale worries us.",neutral,piloting,cost,neutral,piloting,cost
+101,The numbers don't add up. Too expensive for the value it would deliver at our scale. We've moved on.,negative,not_interested,cost,negative,not_interested,cost
+89,We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it.,negative,exploring,skills,negative,exploring,skills
+99,We're enthusiastic about AI but won't rush into something that breaks the budget. Taking time to find the right deal.,positive,exploring,cost,positive,exploring,cost
+104,Began looking into AI last quarter and pulled back fast. The cost of entry is too high for our margin structure.,negative,exploring,cost,negative,exploring,cost
+110,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+108,Did some initial research on AI but the technical requirements are way beyond our current team's abilities.,negative,exploring,skills,negative,exploring,skills
+102,Did some initial research on AI but the technical requirements are way beyond our current team's abilities.,negative,exploring,skills,neutral,exploring,skills
+111,AI is in use across the business but the skills gap is a persistent issue. We're managing but it takes resource.,neutral,scaling,skills,neutral,scaling,skills
+98,AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely.,neutral,scaling,trust,negative,scaling,trust
+112,Not opposed to AI but the total cost of ownership isn't clear. Not ready to commit until we understand the numbers.,neutral,exploring,cost,neutral,exploring,cost
+103,Our AI pilot for customer service has been brilliant â€” response times halved and satisfaction scores are up.,positive,piloting,none,positive,piloting,none
+113,We explored AI options but the combination of data privacy concerns and inconsistent accuracy made it a non-starter.,negative,exploring,trust,negative,exploring,trust
+109,AI pilot has started but we underestimated the training investment. Spending more time on internal support than expected.,neutral,piloting,skills,neutral,piloting,skills
+118,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",positive,scaling,skills,positive,scaling,none
+117,"We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially.",negative,not_interested,cost,negative,exploring,cost
+119,Interested in AI but worried about vendor lock-in and what happens to our data. Exploring very carefully.,neutral,exploring,trust,neutral,exploring,trust
+105,Began looking into AI last quarter and pulled back fast. The cost of entry is too high for our margin structure.,negative,exploring,cost,negative,exploring,cost
+106,Exploring AI but the skill requirements feel steep. We'd need either training or external help â€” neither is cheap or quick.,neutral,exploring,skills,neutral,exploring,skills
+121,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+107,AI is deployed but we've had reliability incidents that have made us cautious. Still using it but with more oversight.,neutral,scaling,trust,neutral,scaling,trust
+116,AI interests us but pricing models are confusing and often don't match what's advertised. Cautiously exploring.,neutral,exploring,cost,neutral,exploring,cost
+122,"Testing an AI tool and it shows promise, but we need a proper training programme before we can roll it out fully.",neutral,piloting,skills,positive,piloting,skills
+125,We tried to research AI tools but every solution assumed a level of technical expertise we don't have. Gave up.,negative,exploring,skills,negative,exploring,skills
+129,Pilot is underway. Early signs are mixed â€” the tool works but the price point feels high given the efficiency gains so far.,neutral,piloting,cost,neutral,piloting,cost
+114,We explored AI seriously but the skills required to implement it properly aren't something we can realistically build.,negative,exploring,skills,neutral,exploring,skills
+128,"We underestimated how much training the pilot would need, but we committed to it and the results have justified that.",positive,piloting,skills,positive,piloting,skills
+123,We started exploring AI tools but the liability and accuracy questions were never answered satisfactorily. We stopped.,negative,exploring,trust,negative,exploring,trust
+120,We piloted an AI tool and found outputs unreliable. It gave wrong information to customers on multiple occasions.,negative,piloting,trust,negative,piloting,trust
+132,"Our AI pilot is in progress but adoption has been patchy. Some team members use it well, others are struggling.",neutral,piloting,skills,neutral,piloting,skills
+133,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+137,Testing AI now. The tool itself is capable but our team needs more hand-holding than we anticipated.,neutral,piloting,skills,neutral,piloting,skills
+131,Our pilot has shown some value but per-user licensing is expensive at scale. Waiting to negotiate better rates.,neutral,piloting,cost,neutral,piloting,cost
+139,AI is clearly the right direction for us. Just need to find a cost model that works â€” exploring options actively.,positive,exploring,cost,positive,exploring,cost
+138,We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing.,positive,exploring,cost,neutral,exploring,cost
+141,We're not pursuing AI currently â€” getting the skills in place would require hiring or retraining we can't prioritise.,neutral,not_interested,skills,neutral,not_interested,skills
+126,Interested but cautious. The tools we've seen are promising; the price tags less so. Still evaluating.,neutral,exploring,cost,neutral,exploring,cost
+115,"We ran a pilot and the technology was fine, but the cost-per-outcome made no business sense. We pulled out.",negative,piloting,cost,negative,piloting,cost
+140,Our pilot gave us a clear answer: the tool isn't affordable at the usage level we'd need to make it worthwhile.,negative,piloting,cost,negative,piloting,cost
+135,"Our pilot ended because the tool requires specialist skills to use properly, and we don't have them and can't hire them.",negative,piloting,skills,negative,piloting,skills
+143,We looked at AI and decided the reliability risks were too high. Not something we're willing to gamble on.,negative,not_interested,trust,negative,not_interested,trust
+145,"Our AI pilot is in progress but adoption has been patchy. Some team members use it well, others are struggling.",neutral,piloting,skills,neutral,piloting,skills
+134,There's still a skills gap on the team but the pilot results are strong enough that we're investing in training to close it.,positive,piloting,skills,positive,piloting,skills
+148,"Tried to research AI options. Every credible solution was priced for enterprise, not small businesses like us.",negative,exploring,cost,negative,exploring,cost
+147,"Our AI pilot is in progress but adoption has been patchy. Some team members use it well, others are struggling.",neutral,piloting,skills,neutral,piloting,skills
+127,Not interested in AI. We had one experience with a recommendation system that gave dangerous outputs. Not repeating that.,negative,not_interested,trust,negative,not_interested,trust
+149,"After a year of scaling our AI tools, revenue is up and headcount has stayed flat. Best investment we've made.",positive,scaling,none,positive,scaling,none
+152,We attended an AI summit last month and came away energised. We're actively evaluating tools and demos lined up.,positive,exploring,none,positive,exploring,none
+153,We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now.,positive,scaling,cost,positive,scaling,none
+150,We're piloting an AI tool but we've hit a learning curve. It's not as intuitive as the vendor suggested.,neutral,piloting,skills,neutral,piloting,skills
+156,We started looking into AI but stopped when we saw the pricing. Just not accessible for small businesses like ours.,negative,exploring,cost,negative,exploring,cost
+142,AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic.,neutral,scaling,trust,neutral,scaling,trust
+158,On the fence about AI. The technology seems impressive but we've had one bad experience with automation before.,neutral,exploring,trust,neutral,exploring,trust
+157,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral,scaling,cost,negative,scaling,cost
+154,Interested in AI and actively looking â€” just need to find an option that fits our budget without sacrificing quality.,positive,exploring,cost,positive,exploring,cost
+146,We started exploring AI tools but the liability and accuracy questions were never answered satisfactorily. We stopped.,negative,exploring,trust,negative,exploring,trust
+163,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",positive,scaling,cost,positive,scaling,none
+159,"We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment.",neutral,scaling,skills,positive,scaling,skills
+164,"We're testing it and it's fine, but fine isn't worth the price tag. Need to see more compelling results before committing.",neutral,piloting,cost,neutral,piloting,cost
+151,We tested an AI system but it kept producing factually incorrect outputs. Had to pull the plug.,negative,piloting,trust,negative,piloting,trust
+162,We're optimistic about AI but want to be smart about the investment. Exploring options to find the most affordable entry point.,positive,exploring,cost,positive,exploring,cost
+169,"AI handles our scheduling, email triage, and basic customer support. We've grown 40% without adding staff.",positive,scaling,none,positive,scaling,none
+166,Interested in AI but feel we'd need to hire someone technical to make it work. That changes the cost-benefit calculation.,neutral,exploring,skills,neutral,exploring,cost
+160,The monthly spend is significant but the efficiency gains more than offset it. We'd scale further if we could.,positive,scaling,cost,positive,scaling,cost
+168,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+167,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral,scaling,cost,negative,scaling,cost
+174,I tried to get buy-in for AI but the honest reality is our team isn't equipped for it. We've decided not to pursue it.,negative,not_interested,skills,negative,not_interested,skills
+171,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+176,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",positive,scaling,cost,positive,scaling,none
+178,Our customers expect accuracy and consistency. AI can't guarantee that. Sticking with our existing processes.,negative,not_interested,trust,negative,not_interested,trust
+165,AI is not something we're pursuing currently â€” we're not confident enough in the outputs to use it in customer-facing processes.,neutral,not_interested,trust,negative,not_interested,trust
+173,"The pilot requires more hands-on support than I expected, but the value is real. We're upskilling the team to keep momentum.",positive,piloting,skills,positive,piloting,skills
+172,We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists.,positive,scaling,skills,positive,scaling,none
+175,We've scaled AI across the business but the cumulative cost is now significant. Still valuable but watching the budget closely.,neutral,scaling,cost,neutral,scaling,cost
+179,The price tags for AI tools are completely out of range for us. We've parked the idea indefinitely.,negative,not_interested,cost,negative,not_interested,cost
+181,"AI is scaled but the capability isn't evenly distributed. Some staff are excellent, others need significant ongoing support.",neutral,scaling,skills,neutral,scaling,skills
+186,AI is deployed across the business but usage is inconsistent. Skills vary a lot between departments.,neutral,scaling,skills,neutral,scaling,skills
+170,Data security concerns killed our AI interest. We can't have customer data going through third-party AI systems.,negative,not_interested,trust,negative,not_interested,trust
+180,We did some research on AI tools and came away deeply sceptical. The accuracy claims don't match what we've heard.,negative,exploring,trust,negative,exploring,trust
+161,Started down the AI exploration path but the skills barrier was obvious very quickly. We don't have what's needed.,negative,exploring,skills,negative,exploring,skills
+190,We've been testing an AI scheduling tool and the efficiency gains are clear. The team is enthusiastic about expanding it.,positive,piloting,none,positive,piloting,none
+182,AI is live across most departments but we're concerned about sustainability. The value is real but so is the monthly spend.,neutral,scaling,cost,neutral,scaling,cost
+189,"Our AI pilot is in progress but adoption has been patchy. Some team members use it well, others are struggling.",neutral,piloting,skills,neutral,piloting,skills
+177,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+184,On the fence. The tools look useful but we'd need clearer ROI data before spending that kind of money.,neutral,exploring,cost,neutral,exploring,cost
+185,Our AI rollout has gone better than expected. The whole team is bought in and we keep finding new applications.,positive,scaling,none,positive,scaling,none
+196,AI is embedded in our ops but there have been a few customer-facing errors that prompted us to review our governance.,neutral,scaling,trust,neutral,scaling,trust
+193,The pilot is useful in controlled conditions but we've had enough unexpected outputs to be cautious about full deployment.,neutral,piloting,trust,neutral,piloting,trust
+197,We're piloting an AI tool but outputs aren't always reliable enough for our standards. Still evaluating.,neutral,piloting,trust,neutral,piloting,trust
+200,Looking into AI but data privacy is a big concern. We handle customer data and can't afford to get it wrong.,neutral,exploring,trust,neutral,exploring,trust
+201,We're running a pilot and results are mixed. The staff who get it see real value; the others find it frustrating.,neutral,piloting,skills,neutral,piloting,skills
+198,No interest in AI adoption right now. We don't have the in-house technical knowledge and outsourcing it feels risky.,negative,not_interested,skills,negative,not_interested,skills
+195,The price tags for AI tools are completely out of range for us. We've parked the idea indefinitely.,negative,not_interested,cost,negative,not_interested,cost
+204,We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now.,positive,scaling,cost,positive,scaling,none
+203,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,positive,scaling,skills,positive,scaling,none
+191,We evaluated AI options and put it on hold. The financial case isn't there yet for a business at our stage.,neutral,not_interested,cost,neutral,exploring,cost
+207,We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale.,neutral,scaling,cost,negative,scaling,cost
+206,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",positive,scaling,skills,positive,scaling,none
+202,We invested in training alongside the AI rollout and it's paid off. The team is confident and the tools keep improving.,positive,scaling,skills,positive,scaling,none
+210,"We're exploring AI but the more we read about errors and biases, the more cautious we feel. Not ready to commit.",neutral,exploring,trust,neutral,exploring,trust
+187,Just starting to explore AI but the potential is clear. Taking our time to find the right fit.,positive,exploring,none,positive,exploring,none
+188,I tried to get buy-in for AI but the honest reality is our team isn't equipped for it. We've decided not to pursue it.,negative,not_interested,skills,negative,not_interested,skills
+213,Our AI pilot showed some promise but costs escalated quickly. We couldn't see a path to affordability.,negative,piloting,cost,negative,piloting,cost
+211,"Our team was a bit underprepared technically when we started the pilot, but they've grown into it and the tool is delivering.",positive,piloting,skills,positive,piloting,skills
+212,"We ran a pilot and the technology was fine, but the cost-per-outcome made no business sense. We pulled out.",negative,piloting,cost,negative,piloting,cost
+194,We're piloting an AI tool but outputs aren't always reliable enough for our standards. Still evaluating.,neutral,piloting,trust,neutral,piloting,trust
+215,"Our pilot was a disappointment â€” not because the AI was terrible, but because the pricing model was unworkable for us.",negative,piloting,cost,negative,piloting,cost
+214,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral,scaling,skills,negative,scaling,skills
+217,The pilot was a wake-up call. The AI performed well on demos but fell apart on real data. Not safe to use.,negative,piloting,trust,negative,piloting,trust
+205,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+218,We tried to research AI tools but every solution assumed a level of technical expertise we don't have. Gave up.,negative,exploring,skills,negative,exploring,skills
+219,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",negative,not_interested,skills,negative,exploring,skills
+220,We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists.,positive,scaling,skills,positive,scaling,none
+223,We stretched the budget to scale AI properly and it's paid off. The ongoing costs are just part of our operating model now.,positive,scaling,cost,positive,scaling,none
+221,We looked at AI but the skills gap in our organisation makes proper implementation impossible. Not the right time.,negative,not_interested,skills,negative,exploring,skills
+227,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",positive,scaling,skills,positive,scaling,none
+226,We're not interested in AI right now â€” data privacy regulations are still catching up with the technology and we're cautious.,neutral,not_interested,trust,negative,not_interested,trust
+222,We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it.,negative,exploring,skills,neutral,exploring,skills
+229,Exploring AI but the skill requirements feel steep. We'd need either training or external help â€” neither is cheap or quick.,neutral,exploring,skills,negative,exploring,skills
+224,We're enthusiastic about AI but won't rush into something that breaks the budget. Taking time to find the right deal.,positive,exploring,cost,positive,exploring,cost
+225,"We've scaled AI but we're battling an adoption gap â€” some teams use it brilliantly, others barely touch it.",neutral,scaling,skills,neutral,scaling,skills
+233,We've expanded AI use significantly but need to be more disciplined about which use cases actually justify the cost.,neutral,scaling,cost,neutral,scaling,cost
+231,We explored AI briefly but the financial reality killed the idea quickly. The industry hasn't made this accessible yet.,negative,exploring,cost,negative,exploring,cost
+208,"Explored AI options but concluded that without dedicated technical staff, we'd be setting ourselves up to fail.",negative,exploring,skills,negative,exploring,skills
+230,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral,scaling,skills,negative,scaling,skills
+228,The monthly spend is significant but the efficiency gains more than offset it. We'd scale further if we could.,positive,scaling,cost,positive,scaling,cost
+237,AI is deployed across the business but usage is inconsistent. Skills vary a lot between departments.,neutral,scaling,skills,neutral,scaling,skills
+235,AI is interesting but reliability worries us. We've seen too many examples of AI getting it wrong in ways that matter.,neutral,exploring,trust,neutral,exploring,trust
+241,We haven't committed yet but everything we're seeing makes us want to move faster on this.,positive,exploring,none,positive,exploring,none
+243,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+240,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",positive,scaling,skills,positive,scaling,none
+245,"AI handles our scheduling, email triage, and basic customer support. We've grown 40% without adding staff.",positive,scaling,none,positive,scaling,none
+234,Building internal AI literacy took time but was worth every hour. Now the team spots opportunities we'd never have seen.,positive,scaling,skills,positive,scaling,none
+247,Piloting an AI content tool and it's been genuinely impressive. Our marketing output has doubled in quality and speed.,positive,piloting,none,positive,piloting,none
+242,AI is part of our stack now but the total spend is higher than we'd like. Looking for ways to optimise without losing capability.,neutral,scaling,cost,neutral,scaling,cost
+239,We like the idea of AI but the setup and management looks complex. Not sure we have the internal expertise.,neutral,exploring,skills,neutral,exploring,skills
+246,We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision.,positive,scaling,cost,positive,scaling,none
+252,"Cost was our biggest concern when we started expanding AI. A year on, the numbers speak for themselves.",positive,scaling,cost,positive,scaling,none
+248,AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely.,neutral,scaling,trust,negative,scaling,trust
+249,Testing AI at the moment. It mostly works but there are edge cases where the output is just wrong. Keeping humans in the loop.,neutral,piloting,trust,neutral,piloting,trust
+254,We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing.,positive,exploring,cost,neutral,exploring,cost
+253,"We've scaled but the cost base has grown with it. Worth it so far, but we're monitoring closely.",neutral,scaling,cost,neutral,scaling,cost
+244,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",negative,exploring,trust,negative,not_interested,trust
+259,Pilot is underway. Early signs are mixed â€” the tool works but the price point feels high given the efficiency gains so far.,neutral,piloting,cost,neutral,piloting,cost
+260,Our AI rollout has gone better than expected. The whole team is bought in and we keep finding new applications.,positive,scaling,none,positive,scaling,none
+236,"Really keen on AI adoption, but we need the pricing to make sense for a business our size. Still looking.",positive,exploring,cost,positive,exploring,cost
+262,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+258,"We're in the pilot phase and the tool has genuine uses, but the subscription model at full scale worries us.",neutral,piloting,cost,neutral,piloting,cost
+264,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+261,We trialled an AI tool for two months and terminated it. The ongoing costs weren't sustainable.,negative,piloting,cost,negative,piloting,cost
+251,We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision.,positive,scaling,cost,positive,scaling,none
+266,We tried to research AI tools but every solution assumed a level of technical expertise we don't have. Gave up.,negative,exploring,skills,negative,exploring,skills
+263,We looked at AI and decided the skills investment was too large for us at this stage. Revisiting next year maybe.,neutral,not_interested,skills,neutral,exploring,skills
+269,Our AI pilot was unsuccessful. The technology needed more technical management than we could provide.,negative,piloting,skills,negative,piloting,skills
+268,Pilot is live but momentum is slow. The AI works but half the team doesn't feel confident enough to use it independently.,neutral,piloting,skills,neutral,piloting,skills
+267,We decided against AI. The data privacy implications are too significant for us to be comfortable.,negative,not_interested,trust,negative,not_interested,trust
+265,"Not cheap, but not a luxury either. Scaling AI has made us lean and competitive in ways that justify every pound spent.",positive,scaling,cost,positive,scaling,none
+274,"Explored AI options but concluded that without dedicated technical staff, we'd be setting ourselves up to fail.",negative,exploring,skills,negative,exploring,skills
+270,Pilot is going okay but every vendor conversation circles back to upselling. Cost is becoming a sticking point.,neutral,piloting,cost,neutral,piloting,cost
+273,"We tried an AI pilot but the knowledge gap in our team was too large. Despite real effort, adoption just didn't happen.",negative,piloting,skills,negative,piloting,skills
+250,We've shortlisted a few AI tools but the price points are giving us pause. Holding off until we have more clarity.,neutral,exploring,cost,neutral,exploring,cost
+276,AI is not something we're pursuing currently â€” we're not confident enough in the outputs to use it in customer-facing processes.,neutral,not_interested,trust,negative,not_interested,trust
+280,Pilot is live but momentum is slow. The AI works but half the team doesn't feel confident enough to use it independently.,neutral,piloting,skills,neutral,piloting,skills
+278,"Explored AI options but concluded that without dedicated technical staff, we'd be setting ourselves up to fail.",negative,exploring,skills,negative,exploring,skills
+281,Our AI pilot ended badly. We had two incidents where the AI made decisions we would never have approved. Trust destroyed.,negative,piloting,trust,negative,piloting,trust
+279,Our pilot gave us a clear answer: the tool isn't affordable at the usage level we'd need to make it worthwhile.,negative,piloting,cost,negative,piloting,cost
+277,We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first.,neutral,not_interested,trust,neutral,exploring,trust
+275,"We've looked at AI and the costs just don't make sense for us right now. Not ruling it out long term, but not now.",neutral,not_interested,cost,neutral,exploring,cost
+271,Not pursuing AI for now. It's not that we're against it â€” the cost-benefit just doesn't add up at our current size.,neutral,not_interested,cost,neutral,not_interested,cost
+287,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",negative,not_interested,skills,negative,exploring,skills
+288,"The pilot requires more hands-on support than I expected, but the value is real. We're upskilling the team to keep momentum.",positive,piloting,skills,positive,piloting,skills
+282,Testing AI currently â€” it does what it says but the cost per use case is hard to justify for a business our size.,neutral,piloting,cost,neutral,piloting,cost
+286,We've expanded AI use significantly but need to be more disciplined about which use cases actually justify the cost.,neutral,scaling,cost,positive,scaling,cost
+290,Not moving ahead with AI at this stage. We want more proven track record before trusting it with business-critical tasks.,neutral,not_interested,trust,neutral,exploring,trust
+285,Not pursuing AI currently â€” more interested in seeing how the regulatory and reliability landscape develops first.,neutral,not_interested,trust,neutral,not_interested,trust
+292,Not pursuing AI currently â€” more interested in seeing how the regulatory and reliability landscape develops first.,neutral,not_interested,trust,neutral,not_interested,trust
+289,"Running a pilot now. The AI does what we need but when I work out the annual cost, the ROI is marginal at best.",neutral,piloting,cost,neutral,piloting,cost
+295,Exciting time to be exploring AI. We've shortlisted three vendors and are doing demos next month.,positive,exploring,none,positive,exploring,none
+291,I tried to get buy-in for AI but the honest reality is our team isn't equipped for it. We've decided not to pursue it.,negative,not_interested,skills,negative,not_interested,skills
+293,Not pursuing AI for now. It's not that we're against it â€” the cost-benefit just doesn't add up at our current size.,neutral,not_interested,cost,neutral,not_interested,cost
+300,AI exploration was discouraging. The tools expect you to have a data science background just to get started.,negative,exploring,skills,negative,exploring,skills
+299,Not going down the AI route. Too many stories of errors and bias. We'd rather keep humans in control.,negative,not_interested,trust,negative,not_interested,trust
+284,The monthly spend is significant but the efficiency gains more than offset it. We'd scale further if we could.,positive,scaling,cost,positive,scaling,cost
+301,AI is embedded in our ops but there have been a few customer-facing errors that prompted us to review our governance.,neutral,scaling,trust,neutral,scaling,trust
+305,We're piloting carefully and keeping a human check on all outputs. The tool isn't reliable enough yet to operate unsupervised.,neutral,piloting,trust,neutral,piloting,trust
+296,Started down the AI exploration path but the skills barrier was obvious very quickly. We don't have what's needed.,negative,exploring,skills,neutral,exploring,skills
+283,Our pilot gave us a clear answer: the tool isn't affordable at the usage level we'd need to make it worthwhile.,negative,piloting,cost,negative,piloting,cost
+298,Our pilot is running but we've had a few cases where the AI gave wrong information to customers. Reviewing carefully.,neutral,piloting,trust,neutral,piloting,trust
+302,We're running AI at scale but keeping close human oversight after some unexpected outputs earlier in the year.,neutral,scaling,trust,neutral,scaling,trust
+310,We ran a pilot but it failed. Our team couldn't get to grips with the tool despite weeks of training.,negative,piloting,skills,negative,piloting,skills
+307,We've shortlisted a few AI tools but the price points are giving us pause. Holding off until we have more clarity.,neutral,exploring,cost,neutral,exploring,cost
+308,We're exploring AI tools seriously but keeping a close eye on cost. Want to find best value before committing.,positive,exploring,cost,neutral,exploring,cost
+311,We paired the rollout with structured training and it made a huge difference. People who were sceptical are now evangelists.,positive,scaling,skills,positive,scaling,none
+315,Ran a pilot for three months â€” it just didn't work for us. The interface was complex and the team never got comfortable.,negative,piloting,skills,negative,piloting,skills
+313,We ran an AI pilot that we had to terminate after the tool gave a customer significantly wrong information. Trust gone.,negative,piloting,trust,negative,piloting,trust
+317,We ran a pilot but it failed. Our team couldn't get to grips with the tool despite weeks of training.,negative,piloting,skills,negative,piloting,skills
+306,"We're exploring AI but the more we read about errors and biases, the more cautious we feel. Not ready to commit.",neutral,exploring,trust,negative,exploring,trust
+318,We're enthusiastic about AI but won't rush into something that breaks the budget. Taking time to find the right deal.,positive,exploring,cost,positive,exploring,cost
+316,Scaling went okay but we underestimated how much ongoing training would be needed as the tools update and evolve.,neutral,scaling,skills,neutral,scaling,skills
+321,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",negative,not_interested,skills,negative,exploring,skills
+320,We did some research on AI tools and came away deeply sceptical. The accuracy claims don't match what we've heard.,negative,exploring,trust,negative,exploring,trust
+294,AI is in use across the business but the skills gap is a persistent issue. We're managing but it takes resource.,neutral,scaling,skills,neutral,scaling,skills
+297,Six weeks into an AI analytics pilot and we've already uncovered insights that changed how we think about our market.,positive,piloting,none,positive,piloting,none
+322,We decided against AI. The data privacy implications are too significant for us to be comfortable.,negative,not_interested,trust,negative,not_interested,trust
+319,We had a thorough cost-benefit analysis before scaling and the numbers stacked up. Still happy with that decision.,positive,scaling,cost,positive,scaling,none
+325,We evaluated several AI tools and came away more worried than when we started. The trust just isn't there for us.,negative,not_interested,trust,negative,exploring,trust
+327,Scaling went okay but we underestimated how much ongoing training would be needed as the tools update and evolve.,neutral,scaling,skills,neutral,scaling,skills
+324,Just starting to explore AI but the potential is clear. Taking our time to find the right fit.,positive,exploring,none,positive,exploring,none
+326,Our pilot needed more training than expected but the results make it worthwhile. Team is getting there and results are promising.,positive,piloting,skills,positive,piloting,skills
+331,Scaling went okay but we underestimated how much ongoing training would be needed as the tools update and evolve.,neutral,scaling,skills,neutral,scaling,skills
+329,"We're testing it and it's fine, but fine isn't worth the price tag. Need to see more compelling results before committing.",neutral,piloting,cost,neutral,piloting,cost
+328,"Our pilot with AI invoicing has been a revelation â€” errors down, admin time cut, team much happier.",positive,piloting,none,positive,piloting,none
+309,We ran an AI pilot that we had to terminate after the tool gave a customer significantly wrong information. Trust gone.,negative,piloting,trust,negative,piloting,trust
+332,"We've scaled AI but we're battling an adoption gap â€” some teams use it brilliantly, others barely touch it.",neutral,scaling,skills,neutral,scaling,skills
+333,We ran a pilot but it failed. Our team couldn't get to grips with the tool despite weeks of training.,negative,piloting,skills,negative,piloting,skills
+337,We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it.,neutral,not_interested,trust,neutral,exploring,trust
+338,We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it.,neutral,not_interested,trust,neutral,exploring,trust
+335,The learning curve was steep but our team got there. Now AI is second nature and adoption keeps growing organically.,positive,scaling,skills,positive,scaling,skills
+334,"We looked into AI but the more we learned about how it works, the less comfortable we felt. Too many unknowns.",negative,exploring,trust,negative,exploring,trust
+340,We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us.,negative,not_interested,skills,negative,exploring,skills
+342,"Explored AI options but concluded that without dedicated technical staff, we'd be setting ourselves up to fail.",negative,exploring,skills,negative,exploring,skills
+344,Began looking into AI last quarter and pulled back fast. The cost of entry is too high for our margin structure.,negative,exploring,cost,negative,exploring,cost
+346,AI adoption is on hold pending better evidence of accuracy and reliability. We'll reassess when those questions are answered.,neutral,not_interested,trust,neutral,exploring,trust
+341,We've rolled out AI broadly but the pricing model changed after year one. Reassessing whether to continue at this scale.,neutral,scaling,cost,neutral,scaling,cost
+345,"Running a pilot now. The AI does what we need but when I work out the annual cost, the ROI is marginal at best.",neutral,piloting,cost,neutral,piloting,cost
+339,We tried to research AI tools but every solution assumed a level of technical expertise we don't have. Gave up.,negative,exploring,skills,negative,exploring,skills
+336,AI isn't on our roadmap currently â€” the pricing models we've seen don't fit our budget or scale.,neutral,not_interested,cost,negative,not_interested,cost
+349,AI is not on our near-term roadmap. The capability gap is too large to bridge without significant investment in people.,neutral,not_interested,skills,negative,not_interested,skills
+347,Skills took time to build during the pilot but we got there. Now the team actually enjoys using the AI tools.,positive,piloting,skills,positive,scaling,skills
+330,Piloting an AI content tool and it's been genuinely impressive. Our marketing output has doubled in quality and speed.,positive,piloting,none,positive,piloting,none
+350,We started looking into AI but stopped when we saw the pricing. Just not accessible for small businesses like ours.,negative,exploring,cost,negative,exploring,cost
+353,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+355,Our AI pilot ended badly. We had two incidents where the AI made decisions we would never have approved. Trust destroyed.,negative,piloting,trust,negative,piloting,trust
+357,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",positive,scaling,skills,positive,scaling,none
+354,I looked into AI for our business and the setup costs alone would take years to recoup. We've decided against it.,negative,not_interested,cost,negative,not_interested,cost
+359,We haven't committed yet but everything we're seeing makes us want to move faster on this.,positive,exploring,none,positive,exploring,none
+362,"We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially.",negative,not_interested,cost,negative,exploring,cost
+364,AI is embedded in our ops but there have been a few customer-facing errors that prompted us to review our governance.,neutral,scaling,trust,neutral,scaling,trust
+358,The monthly spend is significant but the efficiency gains more than offset it. We'd scale further if we could.,positive,scaling,cost,positive,scaling,cost
+365,Looking into AI but data privacy is a big concern. We handle customer data and can't afford to get it wrong.,neutral,exploring,trust,neutral,exploring,trust
+363,"Our people needed upskilling before we could scale, and we invested in that. Happy we did â€” the capability is now a real asset.",positive,scaling,skills,positive,scaling,skills
+361,"We considered AI but between the technical setup and staff training, the human cost ruled it out for us.",negative,not_interested,skills,negative,exploring,skills
+369,I tried to get buy-in for AI but the honest reality is our team isn't equipped for it. We've decided not to pursue it.,negative,not_interested,skills,negative,not_interested,skills
+366,"After reading the small print on data usage, we decided we couldn't trust these companies with our business information.",negative,exploring,trust,negative,not_interested,trust
+356,We ran an AI pilot and ended it early. Cost per result was far too high to justify at any scale.,negative,piloting,cost,negative,piloting,cost
+372,AI is in use across the business but the skills gap is a persistent issue. We're managing but it takes resource.,neutral,scaling,skills,neutral,scaling,skills
+360,In research mode but increasingly aware that our skills gap is a real barrier. Not sure how to bridge it affordably.,neutral,exploring,skills,neutral,exploring,skills
+370,"Our pilot with AI invoicing has been a revelation â€” errors down, admin time cut, team much happier.",positive,piloting,none,positive,piloting,none
+373,We explored AI seriously but the skills required to implement it properly aren't something we can realistically build.,negative,exploring,skills,neutral,exploring,skills
+351,We're not pursuing AI currently â€” getting the skills in place would require hiring or retraining we can't prioritise.,neutral,not_interested,skills,neutral,not_interested,skills
+352,"Really keen on AI adoption, but we need the pricing to make sense for a business our size. Still looking.",positive,exploring,cost,positive,exploring,cost
+378,AI is appealing but we're a lean team and every cost decision matters. Still searching for something that makes financial sense.,neutral,exploring,cost,neutral,exploring,cost
+371,Our team doesn't have the technical background for AI adoption and we can't afford to build that capability. Moving on.,negative,not_interested,skills,negative,not_interested,skills
+374,We were keen to explore AI but the pricing completely put us off. There's a real gap in the market for affordable SME tools.,negative,exploring,cost,negative,exploring,cost
+375,Our AI pilot for customer service has been brilliant â€” response times halved and satisfaction scores are up.,positive,piloting,none,positive,piloting,none
+381,"We've scaled but the cost base has grown with it. Worth it so far, but we're monitoring closely.",neutral,scaling,cost,neutral,scaling,cost
+383,We went all-in on AI twelve months ago and haven't looked back. Our team is more focused and our customers are happier.,positive,scaling,none,positive,scaling,none
+380,The AI chatbot pilot has exceeded expectations. Customers get faster answers and our staff focus on complex issues.,positive,piloting,none,positive,piloting,none
+377,"The pilot requires more hands-on support than I expected, but the value is real. We're upskilling the team to keep momentum.",positive,piloting,skills,positive,piloting,skills
+387,AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic.,neutral,scaling,trust,neutral,scaling,trust
+385,"Research into AI made us more sceptical, not less. We couldn't find a tool we'd be comfortable trusting with real decisions.",negative,exploring,trust,negative,exploring,trust
+379,"We piloted an AI solution and while it had some value, the pricing structure meant we couldn't scale it. Ended the contract.",negative,piloting,cost,negative,piloting,cost
+391,AI exploration was discouraging. The tools expect you to have a data science background just to get started.,negative,exploring,skills,negative,exploring,skills
+384,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+368,Pilot is going okay but every vendor conversation circles back to upselling. Cost is becoming a sticking point.,neutral,piloting,cost,neutral,piloting,cost
+394,The pilot failed because we simply couldn't operate the tool without constant help from the vendor. That's not workable.,negative,piloting,skills,negative,piloting,skills
+393,We looked at AI and decided the skills investment was too large for us at this stage. Revisiting next year maybe.,neutral,not_interested,skills,neutral,exploring,skills
+392,We're running AI at scale but keeping close human oversight after some unexpected outputs earlier in the year.,neutral,scaling,trust,neutral,scaling,trust
+388,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",neutral,not_interested,cost,neutral,exploring,cost
+382,We're piloting an AI tool but outputs aren't always reliable enough for our standards. Still evaluating.,neutral,piloting,trust,neutral,piloting,trust
+376,The pilot failed because we simply couldn't operate the tool without constant help from the vendor. That's not workable.,negative,piloting,skills,negative,piloting,skills
+397,"AI is scaled but the capability isn't evenly distributed. Some staff are excellent, others need significant ongoing support.",neutral,scaling,skills,neutral,scaling,skills
+398,"We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment.",neutral,scaling,skills,positive,scaling,skills
+396,"Our people needed upskilling before we could scale, and we invested in that. Happy we did â€” the capability is now a real asset.",positive,scaling,skills,positive,scaling,none
+401,We did some research on AI tools and came away deeply sceptical. The accuracy claims don't match what we've heard.,negative,exploring,trust,negative,exploring,trust
+403,We explored AI options but the combination of data privacy concerns and inconsistent accuracy made it a non-starter.,negative,exploring,trust,negative,exploring,trust
+402,Exploring AI options but every demo leads to a pricing conversation we're not ready for. Taking our time.,neutral,exploring,cost,neutral,exploring,cost
+405,The numbers don't add up. Too expensive for the value it would deliver at our scale. We've moved on.,negative,not_interested,cost,negative,not_interested,cost
+406,Not moving forward with AI for now. We're a small team and don't have the technical depth to make it work properly.,neutral,not_interested,skills,negative,not_interested,skills
+399,The numbers don't add up. Too expensive for the value it would deliver at our scale. We've moved on.,negative,not_interested,cost,negative,not_interested,cost
+400,Three months into our AI pilot and results are better than we projected. Full rollout planned for next quarter.,positive,piloting,none,positive,piloting,none
+410,AI is deployed across the business but usage is inconsistent. Skills vary a lot between departments.,neutral,scaling,skills,neutral,scaling,skills
+407,We brought in a part-time AI specialist to help with the rollout. Cost more upfront but made the whole thing a success.,positive,scaling,skills,positive,scaling,none
+409,AI is embedded in our ops but there have been a few customer-facing errors that prompted us to review our governance.,neutral,scaling,trust,neutral,scaling,trust
+408,We're not pursuing AI right now â€” we don't have the skills internally and it's not the right time to hire for them.,neutral,not_interested,skills,neutral,not_interested,skills
+412,AI is embedded in our ops but there have been a few customer-facing errors that prompted us to review our governance.,neutral,scaling,trust,neutral,scaling,trust
+389,"We're running an AI pilot but ongoing costs are higher than forecast. Useful, but not sure the numbers stack up.",neutral,piloting,cost,neutral,piloting,cost
+414,We looked at AI seriously and the costs are just not feasible for a business our size. Not pursuing this.,negative,not_interested,cost,negative,not_interested,cost
+417,"We're testing it and it's fine, but fine isn't worth the price tag. Need to see more compelling results before committing.",neutral,piloting,cost,neutral,piloting,cost
+419,AI is in use across the business but the skills gap is a persistent issue. We're managing but it takes resource.,neutral,scaling,skills,neutral,scaling,skills
+416,"Our pilot ended because the tool requires specialist skills to use properly, and we don't have them and can't hire them.",negative,piloting,skills,negative,piloting,skills
+421,We want to adopt AI and are actively exploring. Cost is a factor but we're confident there's a sensible option out there.,positive,exploring,cost,positive,exploring,cost
+413,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",neutral,not_interested,cost,neutral,exploring,cost
+420,The price tags for AI tools are completely out of range for us. We've parked the idea indefinitely.,negative,not_interested,cost,negative,not_interested,cost
+415,We explored AI briefly but the financial reality killed the idea quickly. The industry hasn't made this accessible yet.,negative,exploring,cost,negative,exploring,cost
+423,Not going down the AI route. Too many stories of errors and bias. We'd rather keep humans in control.,negative,not_interested,trust,negative,not_interested,trust
+418,Our pilot needed more training than expected but the results make it worthwhile. Team is getting there and results are promising.,positive,piloting,skills,positive,piloting,skills
+422,I've been researching AI solutions for months and I'm genuinely excited. The right tool for our size definitely exists.,positive,exploring,none,positive,exploring,none
+426,"We explored it and walked away. Licensing, integration, and ongoing costs are too much for where we are financially.",negative,not_interested,cost,negative,exploring,cost
+424,"We piloted an AI solution and while it had some value, the pricing structure meant we couldn't scale it. Ended the contract.",negative,piloting,cost,negative,piloting,cost
+428,We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first.,neutral,not_interested,trust,neutral,exploring,trust
+432,AI is deployed widely but we've had to renegotiate contracts twice because costs kept creeping up.,neutral,scaling,cost,negative,scaling,cost
+427,AI is live across most departments but we're concerned about sustainability. The value is real but so is the monthly spend.,neutral,scaling,cost,neutral,scaling,cost
+429,"We're in the pilot phase and the tool has genuine uses, but the subscription model at full scale worries us.",neutral,piloting,cost,neutral,piloting,cost
+433,Not moving ahead with AI at this stage. We want more proven track record before trusting it with business-critical tasks.,neutral,not_interested,trust,neutral,exploring,trust
+431,We're not pursuing AI right now â€” we don't have the skills internally and it's not the right time to hire for them.,neutral,not_interested,skills,neutral,not_interested,skills
+411,We're running a pilot and results are mixed. The staff who get it see real value; the others find it frustrating.,neutral,piloting,skills,neutral,piloting,skills
+430,We're not pursuing AI currently â€” getting the skills in place would require hiring or retraining we can't prioritise.,neutral,not_interested,skills,neutral,not_interested,skills
+436,The learning curve was steeper than the vendor suggested but the outcomes are positive enough that we're pushing through.,positive,piloting,skills,positive,scaling,skills
+437,Skills took time to build during the pilot but we got there. Now the team actually enjoys using the AI tools.,positive,piloting,skills,positive,scaling,skills
+441,We're not pursuing AI right now â€” we don't have the skills internally and it's not the right time to hire for them.,neutral,not_interested,skills,neutral,not_interested,skills
+442,Started down the AI exploration path but the skills barrier was obvious very quickly. We don't have what's needed.,negative,exploring,skills,negative,exploring,skills
+435,"We've scaled AI but we're battling an adoption gap â€” some teams use it brilliantly, others barely touch it.",neutral,scaling,skills,neutral,scaling,skills
+446,"We've expanded AI use significantly but training is an ongoing burden. It's worth it, but it's a real commitment.",neutral,scaling,skills,positive,scaling,skills
+445,We're in research mode but very optimistic. AI feels like a genuine opportunity for a business our size.,positive,exploring,none,positive,exploring,none
+449,We've done the analysis and can't justify the spend at this point. Maybe when we're bigger or prices come down.,neutral,not_interested,cost,neutral,exploring,cost
+439,Interested in AI but worried about vendor lock-in and what happens to our data. Exploring very carefully.,neutral,exploring,trust,neutral,exploring,trust
+447,AI is interesting but reliability worries us. We've seen too many examples of AI getting it wrong in ways that matter.,neutral,exploring,trust,neutral,exploring,trust
+450,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral,scaling,skills,negative,scaling,skills
+443,AI is live but trust is fragile after two incidents last quarter. We've tightened controls and are monitoring closely.,neutral,scaling,trust,negative,scaling,trust
+452,"We underestimated how much training the pilot would need, but we committed to it and the results have justified that.",positive,piloting,skills,positive,piloting,skills
+451,I've been researching AI solutions for months and I'm genuinely excited. The right tool for our size definitely exists.,positive,exploring,none,positive,exploring,none
+456,Running AI at scale but data governance has become a bigger issue than we anticipated. Working through it.,neutral,scaling,trust,neutral,scaling,trust
+448,Pilot is live but we're not ready to trust it without human oversight. Some outputs have been inconsistent.,neutral,piloting,trust,neutral,piloting,trust
+455,"Running a pilot now. The AI does what we need but when I work out the annual cost, the ROI is marginal at best.",neutral,piloting,cost,neutral,piloting,cost
+458,Our pilot has shown some value but per-user licensing is expensive at scale. Waiting to negotiate better rates.,neutral,piloting,cost,neutral,piloting,cost
+444,AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic.,neutral,scaling,trust,neutral,scaling,trust
+454,Our pilot has shown some value but per-user licensing is expensive at scale. Waiting to negotiate better rates.,neutral,piloting,cost,neutral,piloting,cost
+460,On the fence about AI. The technology seems impressive but we've had one bad experience with automation before.,neutral,exploring,trust,neutral,exploring,trust
+453,"We've scaled but the cost base has grown with it. Worth it so far, but we're monitoring closely.",neutral,scaling,cost,neutral,scaling,cost
+440,AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic.,neutral,scaling,trust,neutral,scaling,trust
+464,We're not interested in AI right now â€” data privacy regulations are still catching up with the technology and we're cautious.,neutral,not_interested,trust,negative,not_interested,trust
+467,"Our pilot ended because the tool requires specialist skills to use properly, and we don't have them and can't hire them.",negative,piloting,skills,negative,piloting,skills
+466,We've decided to wait on AI. The technology is evolving fast and we'd rather let it mature before committing.,neutral,not_interested,trust,neutral,exploring,trust
+461,"We've scaled but the cost base has grown with it. Worth it so far, but we're monitoring closely.",neutral,scaling,cost,neutral,scaling,cost
+470,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",neutral,not_interested,cost,neutral,exploring,cost
+469,We were keen to explore AI but the pricing completely put us off. There's a real gap in the market for affordable SME tools.,negative,exploring,cost,negative,exploring,cost
+462,Exploring AI but the skill requirements feel steep. We'd need either training or external help â€” neither is cheap or quick.,neutral,exploring,skills,negative,exploring,skills
+473,Six weeks into an AI analytics pilot and we've already uncovered insights that changed how we think about our market.,positive,piloting,none,positive,piloting,none
+471,At the research stage but very enthusiastic. AI could help us genuinely compete with much larger players.,positive,exploring,none,positive,exploring,none
+472,"We didn't underestimate the skills investment. Because we prepared properly, the scaling has gone really smoothly.",positive,scaling,skills,positive,scaling,none
+476,Piloting an AI content tool and it's been genuinely impressive. Our marketing output has doubled in quality and speed.,positive,piloting,none,positive,piloting,none
+463,We started exploring AI but quickly realised our team doesn't have the capability to implement or maintain it.,negative,exploring,skills,negative,exploring,skills
+480,Our pilot has shown some value but per-user licensing is expensive at scale. Waiting to negotiate better rates.,neutral,piloting,cost,neutral,piloting,cost
+475,We tested an AI system but it kept producing factually incorrect outputs. Had to pull the plug.,negative,piloting,trust,negative,piloting,trust
+477,AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic.,neutral,scaling,trust,neutral,scaling,trust
+478,We're not pursuing AI currently â€” getting the skills in place would require hiring or retraining we can't prioritise.,neutral,not_interested,skills,neutral,not_interested,skills
+468,AI is live everywhere but we're struggling to maintain the skills needed to keep it running well. High turnover doesn't help.,neutral,scaling,skills,negative,scaling,skills
+485,"It's expensive technology, but we treat it like any other capital investment â€” and the returns are there.",positive,scaling,cost,positive,scaling,none
+459,We've scaled AI across the business but the cumulative cost is now significant. Still valuable but watching the budget closely.,neutral,scaling,cost,neutral,scaling,cost
+487,AI is appealing but we're a lean team and every cost decision matters. Still searching for something that makes financial sense.,neutral,exploring,cost,neutral,exploring,cost
+482,Three months into our AI pilot and results are better than we projected. Full rollout planned for next quarter.,positive,piloting,none,positive,piloting,none
+484,We piloted an AI tool and found outputs unreliable. It gave wrong information to customers on multiple occasions.,negative,piloting,trust,negative,piloting,trust
+465,We started looking into AI but stopped when we saw the pricing. Just not accessible for small businesses like ours.,negative,exploring,cost,negative,exploring,cost
+491,On the fence. The tools look useful but we'd need clearer ROI data before spending that kind of money.,neutral,exploring,cost,neutral,exploring,cost
+481,The AI chatbot pilot has exceeded expectations. Customers get faster answers and our staff focus on complex issues.,positive,piloting,none,positive,piloting,none
+493,AI isn't happening for us right now. The technical requirements exceed what our current team can handle.,neutral,not_interested,skills,negative,not_interested,skills
+490,We're holding off on AI for now. We want to see more evidence of reliability before we'd be comfortable adopting it.,neutral,not_interested,trust,neutral,exploring,trust
+488,Scaling AI has been broadly positive but the financial side needs more active management than we anticipated.,neutral,scaling,cost,positive,scaling,cost
+496,Not pursuing AI for now. It's not that we're against it â€” the cost-benefit just doesn't add up at our current size.,neutral,not_interested,cost,neutral,not_interested,cost
+489,"AI adoption is on ice for now. The pricing structure doesn't work for us, though we're open to revisiting in future.",neutral,not_interested,cost,neutral,exploring,cost
+494,AI is deployed widely but we've introduced human-in-the-loop checks after some reliability concerns. Cautiously optimistic.,neutral,scaling,trust,neutral,scaling,trust
+474,"The licensing fees are real, but so are the savings. Our AI tools have paid for themselves three times over this year.",positive,scaling,cost,positive,scaling,none
+492,Testing AI at the moment. It mostly works but there are edge cases where the output is just wrong. Keeping humans in the loop.,neutral,piloting,trust,neutral,piloting,trust
+479,We'd need to completely retrain our team or hire specialists to implement AI. That's not realistic for us.,negative,not_interested,skills,negative,exploring,skills
+486,"We're exploring AI but the more we read about errors and biases, the more cautious we feel. Not ready to commit.",neutral,exploring,trust,neutral,exploring,trust
+495,We looked at AI seriously and the costs are just not feasible for a business our size. Not pursuing this.,negative,not_interested,cost,negative,not_interested,cost
+497,AI is embedded in our ops but there have been a few customer-facing errors that prompted us to review our governance.,neutral,scaling,trust,neutral,scaling,trust
+498,We're not pursuing AI right now â€” we don't have the skills internally and it's not the right time to hire for them.,neutral,not_interested,skills,neutral,not_interested,skills
+499,The pilot is useful in controlled conditions but we've had enough unexpected outputs to be cautious about full deployment.,neutral,piloting,trust,neutral,piloting,trust
+483,We're open to AI in principle but not ready to adopt it yet. Need to see stronger reliability evidence first.,neutral,not_interested,trust,neutral,exploring,trust

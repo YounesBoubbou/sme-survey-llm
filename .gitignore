@@ -1,0 +1,15 @@
+# Environment — never commit API keys
+.env
+.env.*
+
+# Human coding outputs (private)
+coding_task/coding_truth.csv
+coding_task/coder_*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
